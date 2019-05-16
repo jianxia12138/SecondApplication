@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_list2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MyListActivity">
+
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="fill_parent"
+        android:textSize="20sp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/itemDetail"
+        android:layout_width="fill_parent"
+        android:textSize="15sp"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
